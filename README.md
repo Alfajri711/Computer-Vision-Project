@@ -3,6 +3,7 @@
 # **05_01_Earth_Muhammad Asri Alfajri.ipynb**
 
 **1. Peningkatan Kualitas Gambar dengan CLAHE**
+
 Proyek ini mengeksplorasi berbagai teknik pemrosesan gambar untuk meningkatkan kualitas gambar dengan pencahayaan rendah, dengan membandingkan max pooling, min pooling, average pooling, dan CLAHE (Contrast Limited Adaptive Histogram Equalization).
 
 **2. Metode**
