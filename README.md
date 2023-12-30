@@ -2,10 +2,10 @@
 
 # **05_01_Earth_Muhammad Asri Alfajri.ipynb**
 
-**Peningkatan Kualitas Gambar dengan CLAHE**
+**1. Peningkatan Kualitas Gambar dengan CLAHE**
 Proyek ini mengeksplorasi berbagai teknik pemrosesan gambar untuk meningkatkan kualitas gambar dengan pencahayaan rendah, dengan membandingkan max pooling, min pooling, average pooling, dan CLAHE (Contrast Limited Adaptive Histogram Equalization).
 
-**Metode**
+**2. Metode**
 
 Metode berikut ini diimplementasikan:
 1. OpenCV digunakan untuk mengkonversi antar ruang warna (RGB, grayscale, binary)
@@ -13,7 +13,7 @@ Metode berikut ini diimplementasikan:
 3. Lapisan MaxPool2d dari PyTorch menerapkan max pooling
 4. Fungsi CLAHE kustom mengimplementasikan adaptive histogram equalization
    
-**Hasil**
+**3. Hasil**
 
 Hasil utama:
 1. Max pooling memcerahkan gambar tetapi kehilangan detail
@@ -28,13 +28,13 @@ Hasil utama:
 
 Proyek ini menerapkan teknik transfer learning dengan beberapa model CNN pra-latih untuk melakukan klasifikasi 10 kelas angka tulisan tangan pada dataset MNIST.
 
-**Latar Belakang**
+**1. Latar Belakang**
 
 MNIST adalah dataset standar untuk klasifikasi gambar yang berisi 60.000 gambar latih dan 10.000 gambar uji berukuran 28x28 piksel dari 10 digit angka tulisan tangan.
 
 Transfer learning memanfaatkan model yang telah dilatih pada dataset besar sebelumnya, dan menyesuaikannya untuk tugas baru. Ini memungkinkan melatih model kompleks tanpa dataset besar.
 
-**Metode**
+**2. Metode**
 
 Metode berikut diterapkan:
 3 model CNN pra-latih digunakan:
@@ -54,7 +54,7 @@ Model dilatih selama 5 epoch dengan batch size 6 dan learning rate 1e-5
 
 Performa model dievaluasi dengan akurasi dan loss pada data latih dan validasi
 
-**Hasil**
+**3. Hasil**
 
 Membekukan lapisan menurunkan akurasi akhir karena adaptasi terbatas ke dataset baru. 
 Semakin banyak lapisan dibekukan, semakin lambat akurasi awal karena keterbatasan pengetahuan awal. 
